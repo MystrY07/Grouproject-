@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+  <!--replicating header of home page to make it look sleek and smooth --> 
+    <div id="container">
+        
+        <div id="banner">
+            <br/>
+            <br/>
+            <br/>
+            <span> Tic Tac Toe </span>
+      
+        </div>
+        <div id="navbar">
+            
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="contact-us.html">Contact us </a></li>
+              <li><a href="#">Tic-tac-toe</a></li>
+              <li><a href="donation.html">Donation</a></li>
+            </ul>
+        </div>
+           <br/>
+           <br/>
+           <br>
+           <br>
+           <!--header ends here-->
+
+
+        <section class="ticdisplay">
+            Player <span class="display-player">X</span>'s turn
+        </section>
+        <!--added nine squares(tiles) to the board-->
+        <section class="container">
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+        </section>
+        <!--announcer for whoever wins/loses/tie the game, see in JS file for how it works-->
+        <section class="display announcer hide"></section>
+
+        <!--reset button-->
+        <section class="controls">
+            <button id="reset">Reset</button>
+        </section>
+    <br/>
+    <br/>
+    <br/>
+
+
+        <!--footer (similar to homepage to make it look shazam)-->
+         <div id="footer">
+    <div class="col3center">
+      <h1>Website creators</h1>
+      <div class="navlist">
+        <ul>
+          <li>Andrei</li>
+          <li>Marek</li>
+          <li>Henry</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col3">
+
+    </div>  
+    <div class="col3">
+      <h1>More Links</h1>
+      <div class="navlist">
+        <ul>
+          <li><a href="tic3.html">Tictactoe</a></li>
+          <li><a href="gallery.html">gallery</a></li>
+          <li><a href="donation.html">doonation</a></li>
+        </ul>
+      </div>
+    </div>
+    <p><a href="index.html">homepage</a> | <a href="contact-us.html">contact</a> |  </p>
+</div>
+    </div>
+</body>
+</html>

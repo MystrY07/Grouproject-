@@ -1,0 +1,395 @@
+body {
+padding : 0;
+margin : 0;
+font : 75% tahoma, "Trebuchet MS", sans-serif;
+line-height : 1.5em;
+color : #666;
+background-image: url("backround.jpg");
+background-color: #92cc8f59;
+}
+
+			/*BANNER*/
+#banner {
+padding : 0;
+margin-top : 0;
+height : 130px;
+background-image: url("backround.jpg");
+background : #5a8f57 url(images/Logo.png) no-repeat right center;
+
+text-align:center;
+
+
+}
+span {
+text-align: center;
+margin-top : 0;
+letter-spacing : 3px;
+font-size : 400%;
+padding : 25px 25px 25px 25px;
+color : #000;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background: #c7d9c3;
+
+
+}
+			/*TOP NAV*/
+#navbar ul {
+float : left;
+width :fit-content;
+padding : 0;
+margin : 0;
+list-style-type : none;
+font-size : 110%;
+text-align : center;
+border-top : 5px solid #fff;
+border-bottom : 5px solid #fff;
+background : #92cc8f;
+color : #000;
+width: 1519px;
+}
+#navbar a {
+float : left;
+width : 10em;
+text-decoration : none;
+color : #000;
+background : #92cc8f url(images/square.gif) no-repeat left center;
+padding : 0.5em 1em;
+}
+#navbar a:hover {
+background : #5a8f57 url(images/square.gif) no-repeat left center;
+color : #fff;
+}
+#navbar li {
+display :inline;
+}
+			/*MAIN CONTENT*/
+#content {
+width :auto;
+padding : 1em;
+background-color: aliceblue
+}
+		
+
+			/*BOTTOM*/
+#bottom {
+clear : both;
+height : 200px;
+padding : 5px;
+margin-top : 5px;
+margin-bottom : 35px;
+background : inherit;
+
+}
+			/*FOOTER*/
+#footer h1 {
+letter-spacing : 2px;
+font-size : 110%;
+margin-left : 40px;
+color : #c7d9c3;
+}
+#footer p {
+font-size : 90%;
+padding : 0 0 0 10px;
+color : #c7d9c3;
+}
+#footer {
+padding : 5px;
+margin-top : 5px;
+border-top : 5px solid #fff;
+background : #5a8f57;
+}
+#footer a, a:visited {
+color : #333;
+background : inherit;
+text-decoration : underline;
+}
+#footer a:hover {
+color : #92cc8f;
+background : inherit;
+text-decoration : none;
+}
+			/*FOOTER COLUMNS*/
+.col3, .col3center {
+float : left;
+width : 33%;
+margin-bottom : 20px;
+}
+.col3center {
+margin : 0;
+}
+			/*LINKS*/
+a:link, a:visited {
+color : #5a8f57;
+background : inherit;
+text-decoration : underline;
+}
+a:hover {
+color : #143d55;
+background : inherit;
+text-decoration : none;
+}
+a img {
+border: 0;
+}
+ul li {
+list-style-type : none;
+}
+.navlist ul li {
+list-style-image : url(images/square.gif);
+padding-left : 5px;
+margin-bottom : 0;
+}
+			/*TYPOGRAPHY*/
+h2 {
+letter-spacing : 3px;
+font-size : 130%;
+padding : 10px;
+color : #5a8f57;
+text-align: center;
+}
+.servicesprovided{
+	font-size: 120%;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+	
+}
+blockquote {
+padding : 15px;
+margin: 2vmax;
+font-weight:lighter;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+color : #b29b35;
+width:fit-content;
+font-size: large;
+position:sticky;
+}
+.whoarewe{
+
+	font-size: large;	
+	font-weight: bold;
+}
+			/*CLASS*/
+.imgleft {
+float : left;
+padding : 0px;
+}
+
+
+
+.clear {
+clear : both;
+overflow : hidden;
+width : 0;
+height : 1px;
+}
+
+.ticdisplay {
+    color: rgb(1, 1, 1);
+    font-size: 100%;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+
+}
+
+.tile {
+    border: 1px solid rgb(0, 0, 0);
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.playerX {
+    color: #fe0505;
+}
+
+.playerO {
+    color: #92cc8f;
+}   
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.controls button {
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.display {
+    text-align: center;
+    margin-top : 0;
+    letter-spacing : 3px;
+    font-size : 100%;
+    padding : 25px 25px 25px 25px;
+    color : #000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #c7d9c3;
+}
+
+
+#reset {
+    background-color: #92cc8f;
+
+}
+#reset:hover{
+    color : #000000;
+    background : inherit;
+    text-decoration : none;
+
+}
+
+.display-player {
+	text-align: center;
+	margin-top : 0;
+	letter-spacing : 3px;
+	font-size : 100%;
+	padding : 25px 25px 25px 25px;
+	color : #000;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	background: #c7d9c3;
+	
+	}
+
+
+	/*donation*/
+	*{
+		box-sizing: border-box;
+	  }
+	  
+	.contact form button, .contact form input, .contact form textarea{
+		width:100%;
+		padding:1em;
+		border:1px solid #c9e6ff;
+	  }
+	  
+	.contact form button{
+	
+		border:0;
+		text-transform: uppercase;
+	  }
+	  
+	.contact form button:hover,.contact form button:focus{
+		background:#92bde7;
+		color:#fff;
+		outline:0;
+		transition: background-color 2s ease-out;
+	  }
+.brand {
+
+text-align: center;
+font-size: large;
+}	
+
+@media screen and (max-width: 35em) {
+	/* Make the font size smaller for small screens */
+	body {
+	  font-size: 16px;
+	}
+
+
+
+	#navbar ul{
+		width:fit-content;
+		font-size: small;
+	 
+	}
+
+	.myImages {
+		top: 100%;
+		left: 50%;
+		transform: translate(-50% , -50%);
+		position:relative;
+	}
+
+	span{
+		font-weight: bold;
+		font-size: 100%;
+		display: flex;
+		justify-content:center;
+		
+
+		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	}
+
+	#content{
+		width: fit-content;
+	}
+  
+	
+  }
+  
+ /*galley*/
+ .myImages-gallery img{
+	height: 92px;
+	margin: 10px 0;
+	cursor: pointer;
+	display: block;
+	opacity: .5;
+}
+
+.myImages-gallery img:hover {
+	opacity: 1;
+}
+
+.myImages-gallery {
+	float: left;
+}
+
+.myImages {
+	top: 60%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	position: absolute;
+}
+
+.image-container img {
+	height: 400px;
+	transition: transform 1s;
+}
+
+.image-container img:hover{
+	transform: scale(1.5);
+	cursor: zoom-in;
+}
+
+.image-container {
+	float: right;
+	padding: 10px;
+}
+
+  
+	
+  
+  
+
+ 
+  
+  
+  
+  
+  

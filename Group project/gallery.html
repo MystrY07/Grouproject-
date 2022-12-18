@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	
+		<title>Image gallery</title><!--made by henry-->
+
+
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+
+<body>
+<div id="container">
+    <div id="banner">
+        <br/>
+        <br/>
+        <br/>
+      <span>Gallery</span>
+    </div>
+
+    <div id="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact-us.html">Contact us </a></li>
+          <li><a href="tic3.html">Tic-tac-toe</a></li>
+          <li><a href="donation.html">Donation page </a></li>
+        </ul>
+    </div>
+    
+<br/>
+<br/>
+<div id="content">
+	<div class="myImages">
+		<div class="myImages-gallery">
+			<img src="autism-awareness.jpg"
+				alt="click here"
+				onclick="myImageFunction(this)">
+
+			<img src="autism-awarenessday.jpg"
+				alt="click here"
+				onclick="myImageFunction(this)">
+
+			<img src="autism-scrabble.jpg"
+				alt="click here"
+				onclick="myImageFunction(this)">
+
+			<img src="autism-jigsaw.jpg"
+				alt="click here"
+				onclick="myImageFunction(this)">
+
+        <img src="autism-parents.jpg"
+				alt="click here"
+				onclick="myImageFunction(this)">
+				
+		</div>
+
+		<div class="image-container">
+			<img id="img-Box" src="autism-awareness.jpg"
+				alt="click here">
+		</div>
+	</div>
+
+	<script>
+		function myImageFunction(productSmallImg) {
+			var productFullImg = document.getElementById("img-Box");
+			productFullImg.src = productSmallImg.src;
+		}
+
+		
+	</script>
+</div>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<div class="clear"></div>
+    <div id="footer">
+        <div class="col3center">
+          <h1>Website creators</h1>
+          <div class="navlist">
+            <ul>
+              <li>Andrei</li>
+              <li>Marek</li>
+              <li>Henry</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col3">
+    
+        </div>  
+        <div class="col3">
+          <h1>More Links</h1>
+          <div class="navlist">
+            <ul>
+                <li><a href="tic3.html">Tictactoe</a></li>
+                <li><a href="gallery.html">gallery</a></li>
+                 <li><a href="donation.html">doonation</a></li>
+            </ul>
+          </div>
+        </div>
+        <p><a href="index.html">homepage</a> | <a href="contact-us.html">contact</a> |  </p>
+    </div>
+</div>
+</body>
+
+</html>
